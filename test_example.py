@@ -1,2 +1,2 @@
 def test_example():
-    return True
+    assert True
