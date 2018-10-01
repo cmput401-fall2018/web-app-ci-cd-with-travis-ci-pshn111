@@ -1,2 +1,2 @@
 def test_example():
-	print("hi")
+    return True
