@@ -1,0 +1,36 @@
+body {
+    /*background: linear-gradient(315deg, #bc8279, #b8bc79, #7dbc79, #79bcbc, #798abc, #bb79bc, #bc7982);*/
+    /*background: linear-gradient(315deg, #ff0000, #ff7b00, #fcff00, #26ff00, #00ffd2, #0300ff, #9600ff, #ff00e1, #ff0000);*/
+    /*background: linear-gradient(315deg, #ff0000, #f66d00, #d7a700, #a0d600, #00ff00, #00e1ad, #00baff, #0087ff, #0000ff,*/
+                                /*#c500c3, #fb0080, #ff0045, #ff0000);*/
+    /*background: linear-gradient(315deg, #84e074, #5ee29c, #44e0be, #4bddd7, #6bd7e5);*/
+    background: linear-gradient(315deg, #136fae, #2784ba, #419ac4, #5eafcd, #7cc3d7);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: mybg 10s ease infinite;
+    -moz-animation: mybg 10s ease infinite;
+    animation: mybg 10s ease infinite;}
+
+    @-webkit-keyframes mybg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes mybg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes mybg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+h1 {
+      color: white;
+    }
+p {
+      color: white;
+      font-size: 5vmin;
+    }
