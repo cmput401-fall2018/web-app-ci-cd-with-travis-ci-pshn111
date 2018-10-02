@@ -7,9 +7,9 @@ body {
     background: linear-gradient(315deg, #136fae, #2784ba, #419ac4, #5eafcd, #7cc3d7);
     background-size: 1000% 1000%;
 
-    -webkit-animation: mybg 10s ease infinite;
-    -moz-animation: mybg 10s ease infinite;
-    animation: mybg 10s ease infinite;}
+    -webkit-animation: mybg 5s ease infinite;
+    -moz-animation: mybg 5s ease infinite;
+    animation: mybg 5s ease infinite;}
 
     @-webkit-keyframes mybg {
         0%{background-position:0% 50%}
@@ -29,8 +29,10 @@ body {
 
 h1 {
       color: white;
+      text-align: center;
     }
 p {
       color: white;
       font-size: 5vmin;
+      text-align: center;
     }
